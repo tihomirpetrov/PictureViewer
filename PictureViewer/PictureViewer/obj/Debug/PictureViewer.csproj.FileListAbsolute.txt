@@ -1,0 +1,19 @@
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe.config
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\bin\Debug\PictureViewer.pdb
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.Form1.resources
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.Properties.Resources.resources
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csproj.GenerateResource.Cache
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.exe
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.pdb
+d:\docs\visual studio 2015\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csprojResolveAssemblyReference.cache
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe.config
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\bin\Debug\PictureViewer.pdb
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csprojAssemblyReference.cache
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\obj\Debug\PictureViewer.Form1.resources
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\obj\Debug\PictureViewer.Properties.Resources.resources
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csproj.GenerateResource.cache
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csproj.CoreCompileInputs.cache
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\obj\Debug\PictureViewer.exe
+D:\softuni - tech module\PictureViewer\PictureViewer\PictureViewer\obj\Debug\PictureViewer.pdb

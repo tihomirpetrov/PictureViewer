@@ -1,0 +1,10 @@
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\bin\Debug\Async_Await.exe.config
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\bin\Debug\Async_Await.exe
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\bin\Debug\Async_Await.pdb
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.csprojAssemblyReference.cache
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.Form1.resources
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.Properties.Resources.resources
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.csproj.GenerateResource.cache
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.csproj.CoreCompileInputs.cache
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.exe
+D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.pdb
