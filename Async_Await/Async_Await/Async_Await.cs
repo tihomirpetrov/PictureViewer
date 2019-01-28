@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace Async_Await
 {
-    public partial class Form1 : Form
+    public partial class Async_Await : Form
     {
-        public Form1()
+        public Async_Await()
         {
             InitializeComponent();
         }

@@ -8,3 +8,13 @@ D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\As
 D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.csproj.CoreCompileInputs.cache
 D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.exe
 D:\softuni - tech module\windows forms\WindowsFormsApps\Async_Await\obj\Debug\Async_Await.pdb
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\bin\Debug\Async_Await.exe.config
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\bin\Debug\Async_Await.exe
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\bin\Debug\Async_Await.pdb
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\obj\Debug\Async_Await.csprojAssemblyReference.cache
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\obj\Debug\Async_Await.Async_Await.resources
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\obj\Debug\Async_Await.Properties.Resources.resources
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\obj\Debug\Async_Await.csproj.GenerateResource.cache
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\obj\Debug\Async_Await.csproj.CoreCompileInputs.cache
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\obj\Debug\Async_Await.exe
+C:\Users\Tihomir\source\repos\WindowsFormsApps\Async_Await\Async_Await\obj\Debug\Async_Await.pdb

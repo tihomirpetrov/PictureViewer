@@ -1,6 +1,6 @@
 ﻿namespace Async_Await
 {
-    partial class Form1
+    partial class Async_Await
     {
         /// <summary>
         /// Required designer variable.
@@ -76,7 +76,7 @@
             this.Controls.Add(this.pb_loading_bar);
             this.Controls.Add(this.btn_normal_execution);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Async_Await";
             this.ResumeLayout(false);
             this.PerformLayout();
 
