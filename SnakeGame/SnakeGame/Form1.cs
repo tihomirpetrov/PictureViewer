@@ -18,6 +18,9 @@ namespace SnakeGame
         public Form1()
         {
             InitializeComponent();
+            new Settings();
+
+            gameTimer.Interval = 1000 / Settings.Speed;
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
