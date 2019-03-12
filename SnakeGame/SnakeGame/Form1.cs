@@ -12,9 +12,27 @@ namespace SnakeGame
 {
     public partial class Form1 : Form
     {
+        private List<Circle> Snake = new List<Circle>();
+        private Circle food = new Circle();
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void keyisdown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void keyisup(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void updateGraphics(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
