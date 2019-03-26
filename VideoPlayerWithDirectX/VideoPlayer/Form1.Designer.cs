@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnPlayPause = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
@@ -40,7 +41,9 @@
             this.trackVolume = new System.Windows.Forms.TrackBar();
             this.lblVideo = new System.Windows.Forms.Label();
             this.lblVideoPosition = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnPrevious
@@ -142,11 +145,23 @@
             this.lblVideoPosition.TabIndex = 9;
             this.lblVideoPosition.Text = "lblVideoPosition";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(662, 403);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(210, 129);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 544);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblVideoPosition);
             this.Controls.Add(this.lblVideo);
             this.Controls.Add(this.trackVolume);
@@ -163,6 +178,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,6 +197,7 @@
         private System.Windows.Forms.TrackBar trackVolume;
         private System.Windows.Forms.Label lblVideo;
         private System.Windows.Forms.Label lblVideoPosition;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
