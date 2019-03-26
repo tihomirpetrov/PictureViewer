@@ -13,3 +13,4 @@ Windows - Network Connection Status
 ---------------------------------------------------
 VideoPlayer
 Very small size simple video player
+[preview](https://github.com/tihomirpetrov/WindowsFormsApps/blob/master/VideoPlayerWithDirectX/player.jpg)
