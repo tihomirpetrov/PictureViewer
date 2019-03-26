@@ -169,7 +169,7 @@ namespace VideoPlayer
             int currentTime = Convert.ToInt32(video.CurrentPosition);
             int maxTime = Convert.ToInt32(video.Duration);
 
-            //lblVideoPosition.Text = string.Format("{0:00}:{1:00}:{2:00}", currentTime / 3600, (currentTime / 60) % 60, currentTime % 60) + " / " +
+            lblVideoPosition.Text = string.Format("{0:00}:{1:00}:{2:00}", currentTime / 3600, (currentTime / 60) % 60, currentTime % 60) + " / " +
                                     string.Format("{0:00}:{1:00}:{2:00}", maxTime / 3600, (maxTime / 60) % 60, maxTime % 60); 
         }
     }

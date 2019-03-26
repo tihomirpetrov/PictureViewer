@@ -10,3 +10,6 @@ Small program for getting characters from website
 ===================================================
 NetworkSettings - just a test from 
 Windows - Network Connection Status
+---------------------------------------------------
+VideoPlayer
+Very small size simple video player

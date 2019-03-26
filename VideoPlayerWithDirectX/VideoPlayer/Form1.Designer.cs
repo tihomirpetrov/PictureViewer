@@ -39,6 +39,7 @@
             this.tmrVideo = new System.Windows.Forms.Timer(this.components);
             this.trackVolume = new System.Windows.Forms.TrackBar();
             this.lblVideo = new System.Windows.Forms.Label();
+            this.lblVideoPosition = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).BeginInit();
             this.SuspendLayout();
             // 
@@ -132,11 +133,21 @@
             this.lblVideo.TabIndex = 8;
             this.lblVideo.Text = "lblVideo";
             // 
+            // lblVideoPosition
+            // 
+            this.lblVideoPosition.AutoSize = true;
+            this.lblVideoPosition.Location = new System.Drawing.Point(531, 408);
+            this.lblVideoPosition.Name = "lblVideoPosition";
+            this.lblVideoPosition.Size = new System.Drawing.Size(81, 13);
+            this.lblVideoPosition.TabIndex = 9;
+            this.lblVideoPosition.Text = "lblVideoPosition";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 544);
+            this.Controls.Add(this.lblVideoPosition);
             this.Controls.Add(this.lblVideo);
             this.Controls.Add(this.trackVolume);
             this.Controls.Add(this.lstVideos);
@@ -148,7 +159,7 @@
             this.Controls.Add(this.btnPrevious);
             this.KeyPreview = true;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "VideoPlayer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).EndInit();
@@ -169,6 +180,7 @@
         private System.Windows.Forms.Timer tmrVideo;
         private System.Windows.Forms.TrackBar trackVolume;
         private System.Windows.Forms.Label lblVideo;
+        private System.Windows.Forms.Label lblVideoPosition;
     }
 }
 
