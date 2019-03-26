@@ -15,4 +15,4 @@ VideoPlayer
 ---------------------------------------------------
 Very small size simple video player
 
-<img src="https://github.com/tihomirpetrov/WindowsFormsApps/blob/master/VideoPlayerWithDirectX/player.jpg" width="650" alt="video player">
+<img src="https://github.com/tihomirpetrov/WindowsFormsApps/blob/master/VideoPlayerWithDirectX/player.jpg" width="800" alt="video player">
