@@ -18,13 +18,14 @@ namespace SnakeGame
         public Form1()
         {
             InitializeComponent();
+
             new Settings();
 
             gameTimer.Interval = 1000 / Settings.Speed;
             gameTimer.Tick += updateScreen;
             gameTimer.Start();
 
-            startGame();
+            StartGame();
         }
 
         private void updateScreen(object sender, EventArgs e)
@@ -33,7 +34,7 @@ namespace SnakeGame
             {
                 if (Input.KeyPress(Keys.Enter))
                 {
-                    startGame();
+                    StartGame();
                 }
             }
 
@@ -58,29 +59,8 @@ namespace SnakeGame
 
                 movePlayer();
             }
+
             pbCanvas.Invalidate();
-        }
-
-        private void startGame()
-        {
-            label3.Visible = false;
-            new Settings();
-            Snake.Clear();
-            Circle head = new Circle { X = 10, Y = 5 };
-            Snake.Add(head);
-
-            label2.Text = Settings.Score.ToString();
-
-            generateFood();
-        }
-
-        private void generateFood()
-        {
-            int maxXpos = pbCanvas.Size.Width / Settings.Width;
-            int maxYpos = pbCanvas.Size.Height / Settings.Height;
-
-            Random rnd = new Random();
-            food = new Circle { X = rnd.Next(0, maxXpos), Y = rnd.Next(0, maxYpos)};
         }
 
         private void movePlayer()
@@ -110,20 +90,20 @@ namespace SnakeGame
 
                     if (Snake[i].X < 0 || Snake[i].Y < 0 || Snake[i].X > maxXpos || Snake[i].Y > maxYpos)
                     {
-                        die();
+                        Die();
                     }
 
                     for (int j = 1; j < Snake.Count; j++)
                     {
                         if (Snake[i].X == Snake[j].X && Snake[i].Y == Snake[j].Y)
                         {
-                            die();
+                            Die();
                         }
                     }
 
                     if (Snake[0].X == food.X && Snake[0].Y == food.Y)
                     {
-                        eat();
+                        Eat();
                     }
                 }
                 else
@@ -132,25 +112,6 @@ namespace SnakeGame
                     Snake[i].Y = Snake[i - 1].Y;
                 }
             }
-        }
-
-        private void die()
-        {
-            Settings.GameOver = true;
-        }
-
-        private void eat()
-        {
-            Circle body = new Circle
-            {
-                X = Snake[Snake.Count - 1].X,
-                Y = Snake[Snake.Count - 1].Y
-            };
-
-            Snake.Add(body);
-            Settings.Score += Settings.Points;
-            label2.Text = Settings.Score.ToString();
-            generateFood();
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
@@ -203,6 +164,47 @@ namespace SnakeGame
                 label3.Text = gameOver;
                 label3.Visible = true;
             }
+        }
+
+        private void StartGame()
+        {
+            label3.Visible = false;
+            new Settings();
+            Snake.Clear();
+            Circle head = new Circle { X = 10, Y = 5 };
+            Snake.Add(head);
+
+            label2.Text = Settings.Score.ToString();
+
+            GenerateFood();
+        }
+
+        private void GenerateFood()
+        {
+            int maxXpos = pbCanvas.Size.Width / Settings.Width;
+            int maxYpos = pbCanvas.Size.Height / Settings.Height;
+
+            Random rnd = new Random();
+            food = new Circle { X = rnd.Next(0, maxXpos), Y = rnd.Next(0, maxYpos)};
+        }
+
+        private void Eat()
+        {
+            Circle body = new Circle
+            {
+                X = Snake[Snake.Count - 1].X,
+                Y = Snake[Snake.Count - 1].Y
+            };
+
+            Snake.Add(body);
+            Settings.Score += Settings.Points;
+            label2.Text = Settings.Score.ToString();
+            GenerateFood();
+        }
+
+        private void Die()
+        {
+            Settings.GameOver = true;
         }
     }
 }
